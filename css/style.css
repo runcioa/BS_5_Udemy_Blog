@@ -12,3 +12,15 @@ header {
     background-repeat: no-repeat;
 
 }
+
+
+.card img {
+    filter: grayscale(70%) ;
+    transition: all .4s;
+
+}
+
+.card:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
